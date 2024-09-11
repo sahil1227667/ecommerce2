@@ -98,15 +98,15 @@ export default function Navbar() {
               <Fragment>
                 <button
                   className={
-                    "mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium upprcase tracking-wide text-white"
+                    "mt-1.5 inline-block bg-white px-5 py-3 text-xs font-medium upprcase tracking-wide text-black"
                   }
                   onClick={()=>router.push('/account')}
-                >//className="bg-black text-white px-4 py-3"
+                >
                   Account
                 </button>
                 <button
                   className={
-                    "mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium upprcase tracking-wide text-white"
+                    "mt-1.5 inline-block bg-white px-5 py-3 text-xs font-medium upprcase tracking-wide text-black"
                   }
                   onClick={()=> setShowCartModal(true)}
                 >
@@ -118,7 +118,7 @@ export default function Navbar() {
               isAdminView ? (
                 <button
                   className={
-                    "mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium upprcase tracking-wide text-white"
+                    "mt-1.5 inline-block bg-white px-5 py-3 text-xs font-medium upprcase tracking-wide text-black"
                   }
                   onClick={() => router.push("/")}
                 >
@@ -128,7 +128,7 @@ export default function Navbar() {
                 <button
                   onClick={() => router.push("/admin-view")}
                   className={
-                    "mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium upprcase tracking-wide text-white"
+                    "mt-1.5 inline-block bg-white px-5 py-3 text-xs font-medium upprcase tracking-wide text-black"
                   }
                 >
                   Admin View
@@ -139,7 +139,7 @@ export default function Navbar() {
               <button
                 onClick={handleLogout}
                 className={
-                  "mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium upprcase tracking-wide text-white"
+                  "mt-1.5 inline-block bg-white px-5 py-3 text-xs font-medium upprcase tracking-wide text-black"
                 }
               >
                 Logout

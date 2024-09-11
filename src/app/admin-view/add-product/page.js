@@ -158,7 +158,7 @@ export default function AdminAddNewProduct() {
             onChange={handleImage}
           />
 
-          <div className="flex gap-2 flex-col">
+          <div className="flex gap-2 text-gray-700 flex-col">
             <label>Available sizes</label>
             <TileComponent
               selected={formData.sizes}
