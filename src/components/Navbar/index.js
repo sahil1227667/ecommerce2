@@ -98,7 +98,7 @@ export default function Navbar() {
               <Fragment>
                 <button
                   className={
-                    "mt-1.5 inline-block bg-white px-5 py-3 text-xs font-medium upprcase tracking-wide text-black"
+                    "mt-1.5 inline-block bg-white px-5 py-3 text-xs font-medium upprcase tracking-wide text-gray-700"
                   }
                   onClick={()=>router.push('/account')}
                 >
@@ -106,7 +106,7 @@ export default function Navbar() {
                 </button>
                 <button
                   className={
-                    "mt-1.5 inline-block bg-white px-5 py-3 text-xs font-medium upprcase tracking-wide text-black"
+                    "mt-1.5 inline-block bg-white px-5 py-3 text-xs font-medium upprcase tracking-wide text-gray-700"
                   }
                   onClick={()=> setShowCartModal(true)}
                 >
@@ -118,7 +118,7 @@ export default function Navbar() {
               isAdminView ? (
                 <button
                   className={
-                    "mt-1.5 inline-block bg-white px-5 py-3 text-xs font-medium upprcase tracking-wide text-black"
+                    "mt-1.5 inline-block bg-white px-5 py-3 text-xs font-medium upprcase tracking-wide text-gray-700"
                   }
                   onClick={() => router.push("/")}
                 >
@@ -128,7 +128,7 @@ export default function Navbar() {
                 <button
                   onClick={() => router.push("/admin-view")}
                   className={
-                    "mt-1.5 inline-block bg-white px-5 py-3 text-xs font-medium upprcase tracking-wide text-black"
+                    "mt-1.5 inline-block bg-white px-5 py-3 text-xs font-medium upprcase tracking-wide text-gray-700"
                   }
                 >
                   Admin View
@@ -139,7 +139,7 @@ export default function Navbar() {
               <button
                 onClick={handleLogout}
                 className={
-                  "mt-1.5 inline-block bg-white px-5 py-3 text-xs font-medium upprcase tracking-wide text-black"
+                  "mt-1.5 inline-block bg-white px-5 py-3 text-xs font-medium upprcase tracking-wide text-gray-700"
                 }
               >
                 Logout
@@ -148,7 +148,7 @@ export default function Navbar() {
               <button
                 onClick={() => router.push("/login")}
                 className={
-                  "mt-1.5 inline-block bg-white px-5 py-3 text-xs font-medium upprcase tracking-wide text-black"
+                  "mt-1.5 inline-block bg-white px-5 py-3 text-xs font-medium upprcase tracking-wide text-gray-700"
                 }
               >
                 Login

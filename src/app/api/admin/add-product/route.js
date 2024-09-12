@@ -76,7 +76,7 @@ export async function POST(req) {
     } else {
       return NextResponse.json({
         success: false,
-        message: "You are not autorized !",
+        message: "You are not authorized!",
       });
     }
   } catch (error) {

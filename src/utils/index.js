@@ -189,17 +189,17 @@ export const AvailableSizes = [
 ];
 
 export const firebaseConfig = {
-  apiKey: "API_KEY",
-  authDomain: "AUTH_DOMAIN",
-  projectId: "PROJECT_ID",
-  storageBucket: "STROAGE_BUCKET",
-  messagingSenderId: "MESSAGING_SENDER_ID",
-  appId: "APP_ID",
-  measurementId: "MEASUREMENT_ID",
+  apiKey: "AIzaSyChoqy7UIbarxd3jTsbY4s-kml7-q12-w0",
+  authDomain: "urbanallure-20246.firebaseapp.com",
+  projectId: "urbanallure-20246",
+  storageBucket: "urbanallure-20246.appspot.com",
+  messagingSenderId: "909658217255",
+  appId: "1:909658217255:web:7b8c5d862ebe151d32e702",
+  measurementId: "G-8F3DX3Z6RF"
 };
 
 export const firebaseStroageURL =
-  "YOUR_FIREBASE_STROAGE_URL";
+  "gs://urbanallure-20246.appspot.com";
 
 export const addNewAddressFormControls = [
   {
