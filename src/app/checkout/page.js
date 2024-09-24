@@ -198,7 +198,7 @@ export default function Checkout() {
     <div>
       <div className="grid sm:px-10 lg:grid-cols-2 lg:px-20 xl:px-32">
         <div className="px-4 pt-8">
-          <p className="font-medium text-xl">Cart Summary</p>
+          <p className="font-medium text-gray-700 text-xl">Cart Summary</p>
           <div className="mt-8 space-y-3 rounded-lg border bg-white px-2 py-4 sm:px-5">
             {cartItems && cartItems.length ? (
               cartItems.map((item) => (
@@ -211,7 +211,7 @@ export default function Checkout() {
                     alt="Cart Item"
                     className="m-2 h-24 w-28 rounded-md border object-cover object-center"
                   />
-                  <div className="flex w-full flex-col px-4 py-4">
+                  <div className="flex w-full text-gray-700 flex-col px-4 py-4">
                     <span className="font-bold">
                       {item && item.productID && item.productID.name}
                     </span>
@@ -226,9 +226,9 @@ export default function Checkout() {
             )}
           </div>
         </div>
-        <div className="mt-10 bg-gray-50 px-4 pt-8 lg:mt-0">
+        <div className="mt-10 bg-gray-50 text-gray-700 px-4 pt-8 lg:mt-0">
           <p className="text-xl font-medium">Shipping address details</p>
-          <p className="text-gray-400 font-bold">
+          <p className="text-gray-700 font-bold">
             Complete your order by selecting address below
           </p>
           <div className="w-full mt-6 mr-0 mb-0 ml-0 space-y-6">

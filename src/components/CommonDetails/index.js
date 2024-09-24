@@ -42,7 +42,7 @@ export default function CommonDetails({ item }) {
           <div className="lg:col-span-3 lg:row-end-1">
             <div className="lg:flex lg:items-start">
               <div className="lg:order-2 lg:ml-5">
-                <div className="max-w-xl overflow-hidden rounded-lg">
+                <div className="max-w-xl overflow-hidden text-black rounded-lg">
                   <img
                     src={item.imageUrl}
                     className="h-full w-full max-w-full object-cover"
@@ -76,7 +76,7 @@ export default function CommonDetails({ item }) {
               </div>
             </div>
           </div>
-          <div className="lg:col-span-2 lg:row-span-2 lg:row-end-2">
+          <div className="lg:col-span-2  lg:row-span-2 lg:row-end-2">
             <h1 className="text-2xl font-bold text-gray-700">
               {item && item.name}
             </h1>
