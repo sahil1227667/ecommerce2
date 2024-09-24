@@ -148,9 +148,9 @@ export default function AdminAddNewProduct() {
   console.log(formData);
 
   return (
-    <div className="w-full mt-5 mr-0 mb-0 ml-0 relative">
-      <div className="flex flex-col items-start justify-start p-10 bg-white shadow-2xl rounded-xl relative">
-        <div className="w-full mt-6 mr-0 mb-0 ml-0 space-y-8">
+        <div className="w-full mt-5 mr-0 mb-0 ml-0 text-gray-400 relative">
+    <div className="flex flex-col items-start text-gray-400   justify-start p-10 bg-white shadow-2xl rounded-xl relative">
+        <div className="w-full mt-6 mr-0 mb-0 ml-0 text-gray-400 space-y-8">
           <input
             accept="image/*"
             max="1000000"
@@ -158,7 +158,8 @@ export default function AdminAddNewProduct() {
             onChange={handleImage}
           />
 
-          <div className="flex gap-2 text-gray-700 flex-col">
+          <div className="flex gap-2 text-gray-700
+           flex-col">
             <label>Available sizes</label>
             <TileComponent
               selected={formData.sizes}

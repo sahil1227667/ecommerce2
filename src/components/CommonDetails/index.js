@@ -77,10 +77,10 @@ export default function CommonDetails({ item }) {
             </div>
           </div>
           <div className="lg:col-span-2 lg:row-span-2 lg:row-end-2">
-            <h1 className="text-2xl font-bold text-gray-900">
+            <h1 className="text-2xl font-bold text-gray-700">
               {item && item.name}
             </h1>
-            <div className="mt-10 flex flex-col items-center justify-between space-y-4 botder-t border-b py-4 sm:flex-row sm:space-y-0">
+            <div className="mt-10 flex flex-col items-center justify-between space-y-4 text-black botder-t border-b py-4 sm:flex-row sm:space-y-0">
               <div className="flex items-end">
                 <h1
                   className={`text-3xl font-bold mr-2 ${
@@ -115,15 +115,15 @@ export default function CommonDetails({ item }) {
               </button>
             </div>
             <ul className="mt-8 space-y-2">
-              <li className="flex items-center text-left text-sm font-medium text-gray-600">
+              <li className="flex items-center text-left text-sm font-medium text-gray-700">
                 {item && item.deliveryInfo}
               </li>
               <li className="flex items-center text-left text-sm font-medium text-gray-600">
                 {"Cancel anytime"}
               </li>
             </ul>
-            <div className="lg:col-span-3">
-              <div className="border-b border-gray-400">
+            <div className="lg:col-span-3 text-gray-700">
+              <div className="border-b border-gray-400 ">
                 <nav className="flex gap-4">
                   <a
                     href="#"
